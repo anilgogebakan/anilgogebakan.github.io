@@ -104,7 +104,7 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +115,7 @@ ul {
 
 /* Inner content */
 .banner-content {
-  background: rgba(0, 0, 0, 0.4); /* subtle overlay behind text */
+  background: none; /* subtle overlay behind text */
   padding: 1rem 2rem;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
