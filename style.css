@@ -98,33 +98,49 @@ ul {
   background-color: #005fa3;
 }
 
+/* Banner section with image and headshot */
 #banner {
   background-image: url('Banff.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
-  position: relative;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
 }
 
-.banner-overlay {
-  background: rgba(0, 0, 0, 0.4); /* subtle dark overlay for contrast */
-  padding: 1rem;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+/* Inner content */
+.banner-content {
+  background: rgba(0, 0, 0, 0.4); /* subtle overlay behind text */
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
+.banner-content h1 {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.banner-content p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Profile photo style */
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
 
 
 /* Footer */
