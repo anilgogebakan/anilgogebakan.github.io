@@ -19,15 +19,6 @@ body {
   padding: 2rem 1rem;
 }
 
-#home {
-  background-image: url('Banff.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 3rem 1rem;
-  color: white;
-}
-
 
 /* Header */
 header {
@@ -107,16 +98,33 @@ ul {
   background-color: #005fa3;
 }
 
+#banner {
+  background-image: url('Banff.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  background: rgba(0, 0, 0, 0.4); /* subtle dark overlay for contrast */
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 .profile-photo {
   width: 160px;
   height: 160px;
-  max-width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
+
 
 
 /* Footer */
