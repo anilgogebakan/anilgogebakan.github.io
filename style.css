@@ -104,33 +104,38 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 500px; /* adjust as needed */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
-  position: relative;
 }
 
-/* Inner content */
 .banner-content {
-  background: none; /* subtle overlay behind text */
   padding: 1rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .banner-content h1 {
   margin: 1rem 0 0.25rem;
   font-size: 1.8rem;
-  font-weight: 600;
 }
 
 .banner-content p {
   margin: 0;
   font-size: 1rem;
 }
+
 
 /* Profile photo style */
 .profile-photo {
