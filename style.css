@@ -19,6 +19,16 @@ body {
   padding: 2rem 1rem;
 }
 
+#home {
+  background-image: url('Banff.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+
 /* Header */
 header {
   text-align: center;
