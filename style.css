@@ -113,8 +113,11 @@ ul {
 }
 
 .banner-content {
-  padding: 1rem 2rem;
+  padding: 1.5rem 2.5rem;
   border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  backdrop-filter: blur(3px);
 }
 
 .profile-photo {
