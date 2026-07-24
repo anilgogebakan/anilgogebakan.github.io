@@ -112,20 +112,11 @@ ul {
   color: white;
 }
 
-.banner-content h1{
+.banner-writing{
     display:inline-block;
     background:rgba(0,0,0,0.35);
-    padding:4px 8px;
-    border-radius:5px;
-    color:white;
-}
-
-.banner-content p{
-    display:inline-block;
-    background:rgba(0,0,0,0.35);
-    padding:4px 8px;
-    border-radius:5px;
-    color:white;
+    padding:8px 15px;
+    border-radius:8px;
 }
 
 .profile-photo {
