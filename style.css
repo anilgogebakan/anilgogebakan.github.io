@@ -112,11 +112,18 @@ ul {
   color: white;
 }
 
-.banner-text {
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  background: rgba(0, 0, 0, 0.55);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+.banner-content h1 {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.8);
+}
+
+.banner-content p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.8);
 }
 
 .profile-photo {
